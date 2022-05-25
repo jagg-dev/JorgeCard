@@ -11,6 +11,7 @@
 		1D52C664283DF61F00BF93A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D52C663283DF61F00BF93A7 /* ContentView.swift */; };
 		1D52C666283DF62100BF93A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D52C665283DF62100BF93A7 /* Assets.xcassets */; };
 		1D52C669283DF62100BF93A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D52C668283DF62100BF93A7 /* Preview Assets.xcassets */; };
+		1D52C67D283E0C8F00BF93A7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D52C67C283E0C8F00BF93A7 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		1D52C663283DF61F00BF93A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D52C665283DF62100BF93A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D52C668283DF62100BF93A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D52C67A283E015800BF93A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D52C67C283E0C8F00BF93A7 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +56,10 @@
 			children = (
 				1D52C661283DF61F00BF93A7 /* JorgeCardApp.swift */,
 				1D52C663283DF61F00BF93A7 /* ContentView.swift */,
+				1D52C67C283E0C8F00BF93A7 /* InfoView.swift */,
 				1D52C665283DF62100BF93A7 /* Assets.xcassets */,
 				1D52C667283DF62100BF93A7 /* Preview Content */,
+				1D52C67A283E015800BF93A7 /* Info.plist */,
 			);
 			path = JorgeCard;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D52C664283DF61F00BF93A7 /* ContentView.swift in Sources */,
+				1D52C67D283E0C8F00BF93A7 /* InfoView.swift in Sources */,
 				1D52C662283DF61F00BF93A7 /* JorgeCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,12 +275,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"JorgeCard/Preview Content\"";
 				DEVELOPMENT_TEAM = KURTX4Q6QT;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "/Users/jgonzalez/projects/swift-course/projects/JorgeCard/JorgeCard/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_OUTPUT_FORMAT = binary;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,12 +306,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"JorgeCard/Preview Content\"";
 				DEVELOPMENT_TEAM = KURTX4Q6QT;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "/Users/jgonzalez/projects/swift-course/projects/JorgeCard/JorgeCard/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_OUTPUT_FORMAT = binary;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
